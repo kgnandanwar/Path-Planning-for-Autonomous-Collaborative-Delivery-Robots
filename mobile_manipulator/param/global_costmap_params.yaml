@@ -1,0 +1,4 @@
+global_costmap: 
+  global_frame: map
+  static_map: true
+
