@@ -1,17 +1,12 @@
 # Path-Planning-for-Autonomous-Collaborative-Delivery-Robots
 
-This project is a part of the graduate robotics course RBE 550 - Motion Planning. For this project, we implement a motion planning algorithm on a swarm of autonomous mobile manipulators for package delivery.
+This project revolves around the idea of implementing a Motion Planning Algorithm on a group of Autonomous Mobile Robots for multiple purposes, say food delivery, package delivery in a warehouse, etc. The aim is to focus and delve deeper into this domain by exploring RRT & RRT* algorithm and implementing it on autonomous swarm robots with evasive movement capabilities. 
 
-The project is performed on the following softwares:
+We began the project with an environment setup. Since there was a bit of uncertainty in the potential of the various environments to launch multiple robots, we began implementing the basic environment set up on four different tools: PyGame, V-REP, Gazebo and CARLA. After weighing the pros/cons(say community support) of different software and the errors faced, we moved ahead with PyGame and Gazebo. 
 
-## Pygame
-Pygame is a set of Python modules designed for writing video games. Pygame adds functionality on top of the excellent SDL library. This allows you to create fully featured games and multimedia programs in the python language. Pygame is open source and highly portable and runs on nearly every platform and operating system.
+We started with the implementation of the Motion Planning algorithm, first on a single robot and then on a multi-robot system.
 
-To get more idea about pygame, please follow this link: https://www.pygame.org/docs/tut/newbieguide.html
+Kindly refer to the above single robot simulation(in PyGame), multi-robot simulation(in Rviz) and the files for more details.
 
-## CoppeliaSim (VREP)
-The robotics simulator CoppeliaSim, with integrated development environment, is based on a distributed control architecture: each object/model can be individually controlled via an embedded script, a plugin, a ROS node, a remote API client, or a custom solution. This makes CoppeliaSim very versatile and ideal for multi-robot applications. Controllers can be written in C/C++, Python, Java, Lua, Matlab or Octave.
 
-To get an idea of CoppeliaSim, please follow this link: https://www.coppeliarobotics.com/
 
-To understand the CoppeliaSim environment and to implement your own DYOR Robot, do check out this youtube playlist: https://www.youtube.com/channel/UCstH8IDCcJV_l-pbfFEn37Q
